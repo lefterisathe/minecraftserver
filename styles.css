@@ -1,0 +1,106 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #3b7c3a;
+    color: white;
+}
+
+.navbar .logo h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav-links {
+    list-style-type: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #d3f9d8;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px); /* Full height minus navbar */
+    background-color: #e0eaf3;
+    padding: 20px;
+}
+
+.content {
+    text-align: center;
+}
+
+.minecraft-img {
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.server-links {
+    margin-top: 20px;
+}
+
+.server-links h2 {
+    font-size: 2rem;
+    color: #3b7c3a;
+    margin-bottom: 15px;
+}
+
+.server-links ul {
+    list-style-type: none;
+}
+
+.server-links ul li {
+    margin: 10px 0;
+}
+
+.server-links ul li p {
+    font-size: 1.2rem;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.server-links ul li a:hover {
+    color: #3b7c3a;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
